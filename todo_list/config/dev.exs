@@ -3,11 +3,12 @@ import Config
 # Configure your database
 config :todo_list, TodoList.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "Alora2018!",
   hostname: "localhost",
   database: "todo_list_dev",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
+  port: 5432,
   pool_size: 10
 
 # For development, we disable any cache and enable
